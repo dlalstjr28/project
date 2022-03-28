@@ -5,3 +5,4 @@
 #### RecipeDB.java : 설정된 sqlite3 에다가 정의된 스키마 대로 데이터를 넣기 위한 작업 진행
 #### Recipe.java : 크롤링된 데이터 Class 정의
 #### PageParse.java : 데이터 크롤링을 위한 JAVA 코드
+#### ClassTEST.java : JAVA의 Object 클래스인 Reflect 를 이용해 Automating 작업을 하도록 코드를 짜기 위한 테스트 
