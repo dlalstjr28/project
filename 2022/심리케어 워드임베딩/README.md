@@ -16,6 +16,6 @@
 ![image](https://raw.githubusercontent.com/dlalstjr28/image/master/20220331-4.png)
 ![image](https://raw.githubusercontent.com/dlalstjr28/image/master/20220331-5.png)
 ![image](https://raw.githubusercontent.com/dlalstjr28/image/master/20220331-6.png)
-![image](https://raw.githubusercontent.com/dlalstjr28/image/master/final.jpg)
+![image](https://github.com/dlalstjr28/image/blob/master/fianl.jpg?raw=true)
 
 
