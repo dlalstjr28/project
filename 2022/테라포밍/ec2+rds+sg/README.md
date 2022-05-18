@@ -19,3 +19,6 @@ aws_db_instance.web_db: Creating...
 │   on web_infra.tf line 31, in resource "aws_db_instance" "web_db":
 │   31: resource "aws_db_instance" "web_db" {
 │
+
+### 발생하게 된 이유는 서울 리전에서는 application 이라는 내가 임의로 만든 VPC가 운영중이기 때문.
+### 따라서 해당 문제점을 해결하기 위해 다른 리전에서 실행도록 함.
