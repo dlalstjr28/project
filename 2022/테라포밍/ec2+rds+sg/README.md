@@ -69,4 +69,4 @@
     root@DESKTOP-KP28MS0:/home/dlalstjr28/terraform# terraform console
     > aws_db_instance.web_db.endpoint
     "terraform-20220518151550267100000001.cvk7xkn5oziq.us-east-2.rds.amazonaws.com:3306"
-##  테라포밍을 통해 배포 완료 성공 후 destroy 를 통해 제거! 위에 있는 RDS 값은 tfstate 로 임시로 생성, 원래는 저런 config는 관리를 진행해야함.
+##  테라포밍을 통해 배포 완료 성공 후 destroy 를 통해 제거! 위에 있는 RDS Password 값은 tfstate에 임시로 저장, 원래는 저런 config는 관리를 진행해야함.
