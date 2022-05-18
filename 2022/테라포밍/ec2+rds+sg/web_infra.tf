@@ -19,7 +19,7 @@ data "aws_security_group" "default" {
 }
 
 resource "aws_instance" "web" {
-  ami = "ami-0a93a08544874b3b7" # amzn2-ami-hvm-2.0.20200207.1-x86_64-gp2
+  ami = "ami-0fa49cc9dc8d62c84" # Amazon Linux 2 Kernel 5.10 AMI 2.0.20220426.0 x86_64 HVM gp2
   instance_type = "t2.micro"
   key_name = aws_key_pair.web_admin.key_name
   vpc_security_group_ids = [
@@ -31,10 +31,9 @@ resource "aws_instance" "web" {
 resource "aws_db_instance" "web_db" {
   allocated_storage = 8
   engine = "mysql"
-  engine_version = "5.6.35"
+  engine_version = "8.0.28"
   instance_class = "db.t2.micro"
   username = "admin"
   password = "<DB_PASSWORD>"
   skip_final_snapshot = true
 }
-
