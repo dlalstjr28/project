@@ -36,4 +36,4 @@
 ![사진1](https://subicura.com/k8s/build/imgs/guide/index/wordpress.webp)
 
     kubectl apply -f https://subicura.com/k8s/code/guide/index/wordpress-k8s.yml
-    kubectl delete wordpress-k8s.yml
+    kubectl delete -f https://subicura.com/k8s/code/guide/index/wordpress-k8s.yml
