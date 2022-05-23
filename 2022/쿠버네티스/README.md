@@ -30,3 +30,5 @@
     CONTAINER ID   IMAGE                                 COMMAND                  CREATED        STATUS         PORTS                                                                                                                                  NAMES
     6baf8b978c29   gcr.io/k8s-minikube/kicbase:v0.0.29   "/usr/local/bin/entr…"   3 months ago   Up 4 minutes   127.0.0.1:56493->22/tcp, 127.0.0.1:56494->2376/tcp, 127.0.0.1:56496->5000/tcp, 127.0.0.1:56497->8443/tcp, 127.0.0.1:56495->32443/tcp   minikube
 
+
+## wordpress.yml 접속하기 위해선 minikube 설치 후 minikube service 로 접속 (그 전에 kubectl get all 로 서비스명 확인)
