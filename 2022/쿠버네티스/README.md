@@ -34,3 +34,5 @@
 ## wordpress.yml 접속하기 위해선 minikube 설치 후 minikube service 로 접속 (그 전에 kubectl get all 로 서비스명 확인)
 
 ![사진1](https://subicura.com/k8s/build/imgs/guide/index/wordpress.webp)
+
+    kubectl apply -f https://github.com/dlalstjr28/project/blob/main/2022/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4/wordpress.yml
