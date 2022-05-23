@@ -35,4 +35,5 @@
 
 ![사진1](https://subicura.com/k8s/build/imgs/guide/index/wordpress.webp)
 
-    kubectl apply -f https://github.com/dlalstjr28/project/blob/main/2022/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4/wordpress.yml
+    kubectl apply -f https://github.com/dlalstjr28/project/blob/main/2022/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4/wordpress.yml * 예시입니다. 다운받아서 사용하세요
+    kubectl delete wordpress.yml
