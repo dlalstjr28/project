@@ -26,4 +26,7 @@
 
     C:\Users\dlals>minikube ip
     192.168.49.2
-    
+    C:\Users\dlals>docker ps
+    CONTAINER ID   IMAGE                                 COMMAND                  CREATED        STATUS         PORTS                                                                                                                                  NAMES
+    6baf8b978c29   gcr.io/k8s-minikube/kicbase:v0.0.29   "/usr/local/bin/entr…"   3 months ago   Up 4 minutes   127.0.0.1:56493->22/tcp, 127.0.0.1:56494->2376/tcp, 127.0.0.1:56496->5000/tcp, 127.0.0.1:56497->8443/tcp, 127.0.0.1:56495->32443/tcp   minikube
+
